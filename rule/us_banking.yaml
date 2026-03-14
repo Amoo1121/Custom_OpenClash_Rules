@@ -1,0 +1,27 @@
+# US Banking Rules
+# Custom rules for US banking apps that need consistent IP
+
+payload:
+  # Major US Banks
+  - DOMAIN-SUFFIX,chase.com
+  - DOMAIN-SUFFIX,wellsfargo.com
+  - DOMAIN-SUFFIX,bankofamerica.com
+  - DOMAIN-SUFFIX,citi.com
+  - DOMAIN-SUFFIX,usbank.com
+  - DOMAIN-SUFFIX,pnc.com
+  - DOMAIN-SUFFIX,capitalone.com
+  - DOMAIN-SUFFIX,barclays.com
+  - DOMAIN-SUFFIX,americanexpress.com
+  - DOMAIN-SUFFIX,discover.com
+  - DOMAIN-SUFFIX,usaa.com
+  - DOMAIN-SUFFIX,tda-ameritrade.com
+  - DOMAIN-SUFFIX,schwab.com
+  - DOMAIN-SUFFIX,fidelity.com
+  - DOMAIN-SUFFIX,vanguard.com
+  
+  # Banking Keywords
+  - DOMAIN-KEYWORD,chase
+  - DOMAIN-KEYWORD,bankofamerica
+  - DOMAIN-KEYWORD,wellsfargo
+  - DOMAIN-KEYWORD,citi
+  - DOMAIN-KEYWORD,capitalone
